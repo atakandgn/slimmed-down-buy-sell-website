@@ -1,0 +1,17 @@
+nav {
+  background-color: #40465c;
+  padding: 20px 0;
+}
+
+
+/* Arama */
+.search-btn { background-color: #fff; }
+.search-btn:hover { background-color: #ffc107; }
+
+
+.mainLayout{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background: #d8cccc;
+}

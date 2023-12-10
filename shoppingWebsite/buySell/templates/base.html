@@ -1,0 +1,82 @@
+<!-- base.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}Ana Sayfa{% endblock %}</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar border-bottom border-body">
+    <div class="container-fluid">
+      <a class="navbar-brand">
+        <img src="{% static 'images/logo.png' %}" alt="logo" width="300" height="50" class="object-fit-contain" />
+      </a>
+      <!-- search icon inside a search box with svg -->
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Ara" aria-label="Search" />
+        <button class="btn btn-outline-success" type="submit">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 50 50">
+            <path d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"></path>
+        </svg>
+
+    </form>
+    </div>
+  </nav>
+
+  <!-- İçerik alanı -->
+  <div class="container mt-5">
+      <div class="mainLayout">
+        <!-- category sidebar -->
+        <div class="col-md-3">
+          <ul>
+            {% if categories %}
+            <h2>Categories</h2>
+            <ul>
+              {% for category in categories %}
+                  <li>
+                      {{ category.name }} ({{ category.count }})
+                      {% if category.subcategories %}
+                          <ul>
+                              {% for subcategory in category.subcategories %}
+                                  <li>{{ subcategory.name }} ({{ subcategory.count }})</li>
+                              {% endfor %}
+                          </ul>
+                      {% endif %}
+                  </li>
+                  {% endfor %}
+                      </ul>
+                  {% else %}
+                  <p>No categories available.</p>
+              {% endif %}
+          </ul>
+        </div>
+        {% block content %}
+    
+        {% endblock %}
+      </div>
+    
+  </div>
+
+  <!-- Bootstrap JS ve Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+
+</html>

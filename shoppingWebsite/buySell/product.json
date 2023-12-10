@@ -1,0 +1,455 @@
+{
+    "products": [
+      {
+        "ad_no": 1,
+        "description": "Smartphone Model A",
+        "price": 599.99,
+        "city": "Istanbul",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Electronics",
+        "subcategory_ID": 11
+      },
+      {
+        "ad_no": 2,
+        "description": "Smartphone Model B",
+        "price": 649.99,
+        "city": "Ankara",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Electronics",
+        "subcategory_ID": 11
+      },
+      {
+        "ad_no": 3,
+        "description": "Smartphone Model C",
+        "price": 699.99,
+        "city": "Izmir",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Electronics",
+        "subcategory_ID": 11
+      },
+      {
+        "ad_no": 4,
+        "description": "Smartphone Model D",
+        "price": 749.99,
+        "city": "Antalya",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Electronics",
+        "subcategory_ID": 11
+      },
+      {
+        "ad_no": 5,
+        "description": "Smartphone Model E",
+        "price": 799.99,
+        "city": "Bursa",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Electronics",
+        "subcategory_ID": 11
+      },
+      {
+        "ad_no": 6,
+        "description": "Laptop Model X",
+        "price": 899.99,
+        "city": "Istanbul",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Electronics",
+        "subcategory_ID": 12
+      },
+      {
+        "ad_no": 7,
+        "description": "Laptop Model Y",
+        "price": 949.99,
+        "city": "Ankara",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Electronics",
+        "subcategory_ID": 12
+      },
+      {
+        "ad_no": 8,
+        "description": "Laptop Model Z",
+        "price": 999.99,
+        "city": "Izmir",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Electronics",
+        "subcategory_ID": 12
+      },
+      {
+        "ad_no": 9,
+        "description": "Laptop Model W",
+        "price": 1049.99,
+        "city": "Antalya",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Electronics",
+        "subcategory_ID": 12
+      },
+      {
+        "ad_no": 10,
+        "description": "Laptop Model V",
+        "price": 1099.99,
+        "city": "Bursa",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Electronics",
+        "subcategory_ID": 12
+      },
+      {
+        "ad_no": 11,
+        "description": "Men's Shirt A",
+        "price": 29.99,
+        "city": "Istanbul",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Clothing",
+        "subcategory_ID": 21
+      },
+      {
+        "ad_no": 12,
+        "description": "Men's Shirt B",
+        "price": 34.99,
+        "city": "Ankara",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Clothing",
+        "subcategory_ID": 21
+      },
+      {
+        "ad_no": 13,
+        "description": "Men's Shirt C",
+        "price": 39.99,
+        "city": "Izmir",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Clothing",
+        "subcategory_ID": 21
+      },
+      {
+        "ad_no": 14,
+        "description": "Men's Shirt D",
+        "price": 44.99,
+        "city": "Antalya",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Clothing",
+        "subcategory_ID": 21
+      },
+      {
+        "ad_no": 15,
+        "description": "Men's Shirt E",
+        "price": 49.99,
+        "city": "Bursa",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Clothing",
+        "subcategory_ID": 21
+      },
+      {
+        "ad_no": 16,
+        "description": "Women's Dress A",
+        "price": 59.99,
+        "city": "Istanbul",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Clothing",
+        "subcategory_ID": 22
+      },
+      {
+        "ad_no": 17,
+        "description": "Women's Dress B",
+        "price": 69.99,
+        "city": "Ankara",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Clothing",
+        "subcategory_ID": 22
+      },
+      {
+        "ad_no": 18,
+        "description": "Women's Dress C",
+        "price": 79.99,
+        "city": "Izmir",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Clothing",
+        "subcategory_ID": 22
+      },
+      {
+        "ad_no": 19,
+        "description": "Women's Dress D",
+        "price": 89.99,
+        "city": "Antalya",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Clothing",
+        "subcategory_ID": 22
+      },
+      {
+        "ad_no": 20,
+        "description": "Women's Dress E",
+        "price": 99.99,
+        "city": "Bursa",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Clothing",
+        "subcategory_ID": 22
+      },
+      {
+        "ad_no": 21,
+        "description": "Living Room Sofa A",
+        "price": 499.99,
+        "city": "Istanbul",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Furniture",
+        "subcategory_ID": 31
+      },
+      {
+        "ad_no": 22,
+        "description": "Living Room Sofa B",
+        "price": 599.99,
+        "city": "Ankara",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Furniture",
+        "subcategory_ID": 31
+      },
+      {
+        "ad_no": 23,
+        "description": "Living Room Sofa C",
+        "price": 699.99,
+        "city": "Izmir",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Furniture",
+        "subcategory_ID": 31
+      },
+      {
+        "ad_no": 24,
+        "description": "Living Room Sofa D",
+        "price": 799.99,
+        "city": "Antalya",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Furniture",
+        "subcategory_ID": 31
+      },
+      {
+        "ad_no": 25,
+        "description": "Living Room Sofa E",
+        "price": 899.99,
+        "city": "Bursa",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Furniture",
+        "subcategory_ID": 31
+      },
+      {
+        "ad_no": 26,
+        "description": "Bedroom Bed A",
+        "price": 399.99,
+        "city": "Istanbul",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Furniture",
+        "subcategory_ID": 32
+      },
+      {
+        "ad_no": 27,
+        "description": "Bedroom Bed B",
+        "price": 499.99,
+        "city": "Ankara",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Furniture",
+        "subcategory_ID": 32
+      },
+      {
+        "ad_no": 28,
+        "description": "Bedroom Bed C",
+        "price": 599.99,
+        "city": "Izmir",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Furniture",
+        "subcategory_ID": 32
+      },
+      {
+        "ad_no": 29,
+        "description": "Bedroom Bed D",
+        "price": 699.99,
+        "city": "Antalya",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Furniture",
+        "subcategory_ID": 32
+      },
+      {
+        "ad_no": 30,
+        "description": "Bedroom Bed E",
+        "price": 799.99,
+        "city": "Bursa",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Furniture",
+        "subcategory_ID": 32
+      },
+      {
+        "ad_no": 31,
+        "description": "Running Shoes A",
+        "price": 79.99,
+        "city": "Istanbul",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Sports",
+        "subcategory_ID": 41
+      },
+      {
+        "ad_no": 32,
+        "description": "Running Shoes B",
+        "price": 89.99,
+        "city": "Ankara",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Sports",
+        "subcategory_ID": 41
+      },
+      {
+        "ad_no": 33,
+        "description": "Running Shoes C",
+        "price": 99.99,
+        "city": "Izmir",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Sports",
+        "subcategory_ID": 41
+      },
+      {
+        "ad_no": 34,
+        "description": "Running Shoes D",
+        "price": 109.99,
+        "city": "Antalya",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Sports",
+        "subcategory_ID": 41
+      },
+      {
+        "ad_no": 35,
+        "description": "Running Shoes E",
+        "price": 119.99,
+        "city": "Bursa",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Sports",
+        "subcategory_ID": 41
+      },
+      {
+        "ad_no": 36,
+        "description": "Fitness Equipment Set A",
+        "price": 299.99,
+        "city": "Istanbul",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Sports",
+        "subcategory_ID": 42
+      },
+      {
+        "ad_no": 37,
+        "description": "Fitness Equipment Set B",
+        "price": 349.99,
+        "city": "Ankara",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Sports",
+        "subcategory_ID": 42
+      },
+      {
+        "ad_no": 38,
+        "description": "Fitness Equipment Set C",
+        "price": 399.99,
+        "city": "Izmir",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Sports",
+        "subcategory_ID": 42
+      },
+      {
+        "ad_no": 39,
+        "description": "Fitness Equipment Set D",
+        "price": 449.99,
+        "city": "Antalya",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Sports",
+        "subcategory_ID": 42
+      },
+      {
+        "ad_no": 40,
+        "description": "Fitness Equipment Set E",
+        "price": 499.99,
+        "city": "Bursa",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Sports",
+        "subcategory_ID": 42
+      },
+      {
+        "ad_no": 41,
+        "description": "Fiction Book A",
+        "price": 19.99,
+        "city": "Istanbul",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Books",
+        "subcategory_ID": 51
+      },
+      {
+        "ad_no": 42,
+        "description": "Fiction Book B",
+        "price": 24.99,
+        "city": "Ankara",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Books",
+        "subcategory_ID": 51
+      },
+      {
+        "ad_no": 43,
+        "description": "Fiction Book C",
+        "price": 29.99,
+        "city": "Izmir",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Books",
+        "subcategory_ID": 51
+      },
+      {
+        "ad_no": 44,
+        "description": "Fiction Book D",
+        "price": 34.99,
+        "city": "Antalya",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Books",
+        "subcategory_ID": 51
+      },
+      {
+        "ad_no": 45,
+        "description": "Fiction Book E",
+        "price": 39.99,
+        "city": "Bursa",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Books",
+        "subcategory_ID": 51
+      },
+      {
+        "ad_no": 46,
+        "description": "Non-Fiction Book M",
+        "price": 34.99,
+        "city": "Istanbul",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Books",
+        "subcategory_ID": 52
+      },
+      {
+        "ad_no": 47,
+        "description": "Non-Fiction Book N",
+        "price": 39.99,
+        "city": "Ankara",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Books",
+        "subcategory_ID": 52
+      },
+      {
+        "ad_no": 48,
+        "description": "Non-Fiction Book O",
+        "price": 44.99,
+        "city": "Izmir",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Books",
+        "subcategory_ID": 52
+      },
+      {
+        "ad_no": 49,
+        "description": "Non-Fiction Book P",
+        "price": 49.99,
+        "city": "Antalya",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Books",
+        "subcategory_ID": 52
+      },
+      {
+        "ad_no": 50,
+        "description": "Non-Fiction Book Q",
+        "price": 54.99,
+        "city": "Bursa",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+        "category": "Books",
+        "subcategory_ID": 52
+      }
+    ]
+  }
+  

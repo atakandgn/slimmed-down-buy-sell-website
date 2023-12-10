@@ -1,0 +1,397 @@
+{
+    "products": [
+      {
+        "ad_no": 1,
+        "title": "Smartphone Alpha",
+        "description": "Advanced smartphone with cutting-edge technology",
+        "price": 1099.99,
+        "city": "New York",
+        "image": "smartphone_alpha.jpg",
+        "category": "Electronics",
+        "subcategory_ID": 11
+      },
+      {
+        "ad_no": 2,
+        "title": "Smartwatch X",
+        "description": "Feature-rich smartwatch with health tracking",
+        "price": 349.99,
+        "city": "San Francisco",
+        "image": "smartwatch_x.jpg",
+        "category": "Electronics",
+        "subcategory_ID": 11
+      },
+      {
+        "ad_no": 3,
+        "title": "Gaming Laptop Pro",
+        "description": "High-performance laptop for gaming enthusiasts",
+        "price": 1899.99,
+        "city": "Los Angeles",
+        "image": "gaming_laptop_pro.jpg",
+        "category": "Electronics",
+        "subcategory_ID": 12
+      },
+      {
+        "ad_no": 4,
+        "title": "UltraSlim Laptop",
+        "description": "Lightweight and ultra-portable laptop",
+        "price": 1299.99,
+        "city": "Chicago",
+        "image": "ultraslim_laptop.jpg",
+        "category": "Electronics",
+        "subcategory_ID": 12
+      },
+      {
+        "ad_no": 5,
+        "title": "Men's Casual Shirt",
+        "description": "Comfortable and trendy shirt for casual wear",
+        "price": 29.99,
+        "city": "Dallas",
+        "image": "mens_casual_shirt.jpg",
+        "category": "Clothing",
+        "subcategory_ID": 21
+      },
+      {
+        "ad_no": 6,
+        "title": "Women's Summer Dress",
+        "description": "Stylish dress perfect for summer outings",
+        "price": 39.99,
+        "city": "Miami",
+        "image": "womens_summer_dress.jpg",
+        "category": "Clothing",
+        "subcategory_ID": 22
+      },
+      {
+        "ad_no": 7,
+        "title": "Sectional Sofa Set",
+        "description": "Comfortable and modern sectional sofa",
+        "price": 999.99,
+        "city": "Seattle",
+        "image": "sectional_sofa_set.jpg",
+        "category": "Furniture",
+        "subcategory_ID": 31
+      },
+      {
+        "ad_no": 8,
+        "title": "Queen Size Bed",
+        "description": "Elegant queen-sized bed for a cozy bedroom",
+        "price": 799.99,
+        "city": "Denver",
+        "image": "queen_size_bed.jpg",
+        "category": "Furniture",
+        "subcategory_ID": 32
+      },
+      {
+        "ad_no": 9,
+        "title": "Running Shoes Pro",
+        "description": "Professional-grade running shoes for athletes",
+        "price": 89.99,
+        "city": "Boston",
+        "image": "running_shoes_pro.jpg",
+        "category": "Sports",
+        "subcategory_ID": 41
+      },
+      {
+        "ad_no": 10,
+        "title": "Yoga Mat",
+        "description": "High-quality yoga mat for fitness enthusiasts",
+        "price": 49.99,
+        "city": "Portland",
+        "image": "yoga_mat.jpg",
+        "category": "Sports",
+        "subcategory_ID": 42
+      },
+      {
+        "ad_no": 11,
+        "title": "Fiction Novel Collection",
+        "description": "Set of gripping fiction novels for book lovers",
+        "price": 59.99,
+        "city": "New York",
+        "image": "fiction_novel_collection.jpg",
+        "category": "Books",
+        "subcategory_ID": 51
+      },
+      {
+        "ad_no": 12,
+        "title": "Self-Help Book Bundle",
+        "description": "Empowering self-help books for personal growth",
+        "price": 44.99,
+        "city": "San Francisco",
+        "image": "self_help_book_bundle.jpg",
+        "category": "Books",
+        "subcategory_ID": 52
+      },
+      {
+        "ad_no": 13,
+        "title": "Men's Winter Jacket",
+        "description": "Warm and stylish jacket for cold weather",
+        "price": 79.99,
+        "city": "Los Angeles",
+        "image": "mens_winter_jacket.jpg",
+        "category": "Clothing",
+        "subcategory_ID": 21
+      },
+      {
+        "ad_no": 14,
+        "title": "Women's Handbag",
+        "description": "Fashionable handbag for everyday use",
+        "price": 49.99,
+        "city": "Chicago",
+        "image": "womens_handbag.jpg",
+        "category": "Clothing",
+        "subcategory_ID": 22
+      },
+      {
+        "ad_no": 15,
+        "title": "Coffee Table",
+        "description": "Modern coffee table for your living room",
+        "price": 199.99,
+        "city": "Dallas",
+        "image": "coffee_table.jpg",
+        "category": "Furniture",
+        "subcategory_ID": 31
+      },
+      {
+        "ad_no": 16,
+        "title": "King Size Mattress",
+        "description": "Luxurious king-sized mattress for a good night's sleep",
+        "price": 899.99,
+        "city": "Miami",
+        "image": "king_size_mattress.jpg",
+        "category": "Furniture",
+        "subcategory_ID": 32
+      },
+      {
+        "ad_no": 17,
+        "title": "Basketball",
+        "description": "High-quality basketball for sports enthusiasts",
+        "price": 29.99,
+        "city": "Seattle",
+        "image": "basketball.jpg",
+        "category": "Sports",
+        "subcategory_ID": 41
+      },
+      {
+        "ad_no": 18,
+        "title": "Fitness Tracker",
+        "description": "Track your fitness with this advanced fitness tracker",
+        "price": 69.99,
+        "city": "Denver",
+        "image": "fitness_tracker.jpg",
+        "category": "Electronics",
+        "subcategory_ID": 11
+      },
+      {
+        "ad_no": 19,
+        "title": "Cookware Set",
+        "description": "Complete cookware set for your kitchen",
+        "price": 149.99,
+        "city": "Boston",
+        "image": "cookware_set.jpg",
+        "category": "Home & Kitchen",
+        "subcategory_ID": 61
+      },
+      {
+        "ad_no": 20,
+        "title": "Office Chair",
+        "description": "Comfortable office chair for productive work hours",
+        "price": 119.99,
+        "city": "Portland",
+        "image": "office_chair.jpg",
+        "category": "Furniture",
+        "subcategory_ID": 31
+      },
+      {
+        "ad_no": 21,
+        "title": "Men's Running Shorts",
+        "description": "Breathable shorts for a comfortable run",
+        "price": 24.99,
+        "city": "New York",
+        "image": "mens_running_shorts.jpg",
+        "category": "Sports",
+        "subcategory_ID": 41
+      },
+      {
+        "ad_no": 22,
+        "title": "Women's Yoga Leggings",
+        "description": "Stretchable leggings for a yoga session",
+        "price": 34.99,
+        "city": "San Francisco",
+        "image": "womens_yoga_leggings.jpg",
+        "category": "Sports",
+        "subcategory_ID": 42
+      },
+      {
+        "ad_no": 23,
+        "title": "Classic Novel Set",
+        "description": "Timeless classic novels for literary enthusiasts",
+        "price": 54.99,
+        "city": "Los Angeles",
+        "image": "classic_novel_set.jpg",
+        "category": "Books",
+        "subcategory_ID": 51
+      },
+      {
+        "ad_no": 24,
+        "title": "Children's Educational Toys",
+        "description": "Educational toys for fun learning experiences",
+        "price": 39.99,
+        "city": "Chicago",
+        "image": "childrens_educational_toys.jpg",
+        "category": "Toys",
+        "subcategory_ID": 71
+      },
+      {
+        "ad_no": 25,
+        "title": "Men's Formal Shirt",
+        "description": "Elegant formal shirt for special occasions",
+        "price": 49.99,
+        "city": "Dallas",
+        "image": "mens_formal_shirt.jpg",
+        "category": "Clothing",
+        "subcategory_ID": 21
+      },
+      {
+        "ad_no": 26,
+        "title": "Women's Watch",
+        "description": "Stylish watch for a touch of sophistication",
+        "price": 89.99,
+        "city": "Miami",
+        "image": "womens_watch.jpg",
+        "category": "Accessories",
+        "subcategory_ID": 81
+      },
+      {
+        "ad_no": 27,
+        "title": "Dining Table Set",
+        "description": "Complete dining table set for family gatherings",
+        "price": 799.99,
+        "city": "Seattle",
+        "image": "dining_table_set.jpg",
+        "category": "Furniture",
+        "subcategory_ID": 31
+      },
+      {
+        "ad_no": 28,
+        "title": "Double Bed with Storage",
+        "description": "Functional double bed with built-in storage",
+        "price": 1099.99,
+        "city": "Denver",
+        "image": "double_bed_with_storage.jpg",
+        "category": "Furniture",
+        "subcategory_ID": 32
+      },
+      {
+        "ad_no": 29,
+        "title": "Camping Tent",
+        "description": "Spacious tent for a comfortable camping experience",
+        "price": 129.99,
+        "city": "Boston",
+        "image": "camping_tent.jpg",
+        "category": "Outdoor",
+        "subcategory_ID": 91
+      },
+      {
+        "ad_no": 30,
+        "title": "Gardening Tool Set",
+        "description": "Complete tool set for your gardening needs",
+        "price": 59.99,
+        "city": "Portland",
+        "image": "gardening_tool_set.jpg",
+        "category": "Home & Garden",
+        "subcategory_ID": 101
+      },
+      {
+        "ad_no": 31,
+        "title": "Men's Sneakers",
+        "description": "Stylish sneakers for casual and sporty looks",
+        "price": 54.99,
+        "city": "New York",
+        "image": "mens_sneakers.jpg",
+        "category": "Footwear",
+        "subcategory_ID": 91
+      },
+      {
+        "ad_no": 32,
+        "title": "Women's Backpack",
+        "description": "Versatile backpack for daily use and travel",
+        "price": 39.99,
+        "city": "San Francisco",
+        "image": "womens_backpack.jpg",
+        "category": "Accessories",
+        "subcategory_ID": 82
+      },
+      {
+        "ad_no": 33,
+        "title": "Home Theater System",
+        "description": "Immersive home theater experience with this system",
+        "price": 499.99,
+        "city": "Los Angeles",
+        "image": "home_theater_system.jpg",
+        "category": "Electronics",
+        "subcategory_ID": 11
+      },
+      {
+        "ad_no": 34,
+        "title": "Queen Size Comforter Set",
+        "description": "Cozy comforter set for a good night's sleep",
+        "price": 69.99,
+        "city": "Chicago",
+        "image": "queen_size_comforter_set.jpg",
+        "category": "Home & Kitchen",
+        "subcategory_ID": 62
+      },
+      {
+        "ad_no": 35,
+        "title": "Cycling Helmet",
+        "description": "Safety first with this durable cycling helmet",
+        "price": 29.99,
+        "city": "Dallas",
+        "image": "cycling_helmet.jpg",
+        "category": "Sports",
+        "subcategory_ID": 41
+      },
+      {
+        "ad_no": 36,
+        "title": "Wireless Earbuds",
+        "description": "Convenient and high-quality wireless earbuds",
+        "price": 79.99,
+        "city": "Miami",
+        "image": "wireless_earbuds.jpg",
+        "category": "Electronics",
+        "subcategory_ID": 11
+      },
+      {
+        "ad_no": 37,
+        "title": "Pet Bed",
+        "description": "Comfortable bed for your furry friend",
+        "price": 24.99,
+        "city": "Seattle",
+        "image": "pet_bed.jpg",
+        "category": "Pets",
+        "subcategory_ID": 111
+      },
+      {
+        "ad_no": 38,
+        "title": "Fitness Dumbbell Set",
+        "description": "Versatile dumbbell set for home workouts",
+        "price": 49.99,
+        "city": "Denver",
+        "image": "fitness_dumbbell_set.jpg",
+        "category": "Sports",
+        "subcategory_ID": 42
+      },
+      {
+        "ad_no": 39,
+        "title": "Recipe Book",
+        "description": "Inspiring recipe book for culinary adventures",
+        "price": 19.99,
+        "city": "Boston",
+        "image": "recipe_book.jpg",
+        "category": "Books",
+        "subcategory_ID": 52
+        }
+    ]
+}
+            
+       
+  
